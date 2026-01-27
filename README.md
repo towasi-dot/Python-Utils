@@ -6,7 +6,7 @@ Just clear the entire console by using this function (optimazed for Windows, Lin
 
 Just type 
 ```
-from utils.Clear import clear
+from Python-Utils.Clear import clear
 ```
 and then 
 ```
@@ -23,7 +23,7 @@ It's exactly what you think, a couple of helpfull mathematical functions:
 
 Just type
 ```
-from utils.MathFuncs import *
+from Python-Utils.MathFuncs import *
 ```
 and then run the chosen function
 
@@ -32,7 +32,7 @@ It is just a random string generator
 
 Just type 
 ```
-from RandomStrings import rand_strings_generator
+from Python-Utils.RandomStrings import rand_strings_generator
 ```
 and to run just type 
 ```
