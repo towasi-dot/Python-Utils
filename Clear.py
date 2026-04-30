@@ -1,6 +1,6 @@
 import os
 
-def clear(space=50):
+def clear(space=20):
     if "PYCHARM_HOSTED" in os.environ:
         print("\n" * space)
     else:
