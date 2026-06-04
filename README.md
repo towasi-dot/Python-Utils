@@ -39,9 +39,18 @@ and to run just type
 rand_strings_generator(lenght) # lenght is an intiger so choose lenght
 ```
 # Change Int System
-Change the intiger system from decimal, to binary (`to_binary()`) or ternary (`to_ternary()`).
+Convert integers between numeral systems using the generic `to_system()` converter.
 
-Just type
-```Python
+## Usage
+```python
 from Python-Utils.changeIntSystem import *
 ```
+
+## Functions
+
+### `to_system(sys: int, n: int) -> str`
+Converts decimal integer `n` to base `sys`, returning it as a string.
+
+### `from_system(sys: int, n: str) -> int`
+Converts a base-`sys` string representation back to a decimal integer
+using Horner's method in O(k) where k = len(n).
